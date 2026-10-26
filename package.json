@@ -1,7 +1,7 @@
 {
   "name": "projet",
   "version": "1.0.0",
-  "description": "",
+  "description": "CataLog - gestionnaire de catalogue en ligne de commande",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
