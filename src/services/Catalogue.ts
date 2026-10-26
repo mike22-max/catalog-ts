@@ -27,6 +27,12 @@ export function estProduitBrut(x: unknown): x is ProduitBrut {
   return idValide && nomValide && prixValide && categorieValide;
 }
 
+// Décorateur de classe : exécuté au moment de la définition.
+export function journal(cible: any): void {
+  console.log("Service enregistré : " + cible.name);
+}
+
+@journal
 export class Catalogue {
   private produits: Produit[] = [];
 
